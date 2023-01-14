@@ -1,0 +1,61 @@
+/* All text elements have this basic styling. */
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+}
+
+/* Some basic styling to our h3 elements to distinguish them from the other elements on the page. */
+h3{
+  text-align: justify;
+  margin: 20px;
+  font-weight: 300;
+}
+
+/* Aligning all our elements vertically */
+.container{
+  display: flex;
+  flex-direction: column
+}
+
+/* All elements to be centered inside our .top and .bottom classes, below. */
+.top{
+  display: flex;
+  align-items: center;
+}
+
+/* In addition items will be aligned vertically. */
+.bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Creating space for our h1 element. */
+h1{
+  margin-left: 25px;
+}
+
+/* Removing bullet points from list elements for a cleaner look, and aligning to the left of its container. */
+ul{
+  list-style: none;
+  margin-left: -14px;
+  text-align: left;
+}
+
+/* Styling for our login button */
+button{
+  border: 1px solid blue;
+  color: blue;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  margin-left: 55px;
+  margin-top: 400px;
+}
+
+/* All our links have their underline styling removed to improve ux design. */
+a{
+  text-decoration: none;
+  color: black;
+}
